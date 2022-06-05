@@ -1,0 +1,46 @@
+{
+  "name": "insomnia-plugin-copy-path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "insomnia": {
+    "name": "copy-path",
+    "displayName": "Copy Data by Path",
+    "description": "",
+    "publisher": {
+      "name": "Otho DuBoise"
+    },
+    "applications": {
+      "designer": "*",
+      "core": "*",
+      "cli": "*"
+    },
+    "unlisted": false
+  },
+  "keywords": [
+    "insomnia",
+    "insomnia rest client",
+    "insomnia plugin",
+    "copy",
+    "xpath",
+    "jsonpath",
+    "path"
+  ],
+  "author": "Otho DuBoise <okd@otho.dev>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okdv/insomnia-plugin-copy-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/okdv/insomnia-plugin-copy-path/issues"
+  },
+  "homepage": "https://github.com/okdv/insomnia-plugin-copy-path#readme",
+  "dependencies": {
+    "insomnia-xpath": "^3.0.0",
+    "jsonpath": "^1.1.1"
+  }
+}
